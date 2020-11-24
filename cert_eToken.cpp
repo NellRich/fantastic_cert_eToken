@@ -134,7 +134,7 @@ static bool ReadCertFromFile(const char* fileName, CK_BYTE_PTR* cert, DWORD* cer
 static void GetX509Subject(CK_BYTE_PTR cert, int certSize, CK_BYTE_PTR* subject, int* subjectSize)
 {
 	   // CK_BYTE_PTR cert - Сертификат в двоичном представлении 
-      // int certSize - Размер сертификата 
+          // int certSize - Размер сертификата 
 	 // CK_BYTE_PTR* subject - Указатель на массив информации о субъекте 
 	// int* subjectSize - Размер информации о субъекте   
    
